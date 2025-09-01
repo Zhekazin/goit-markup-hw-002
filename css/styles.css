@@ -48,10 +48,8 @@ color: #434455;
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
-.contacts-link:focus
-.main-button:hover,
-.main-button:focus {
-color: #404bbf;    
+.contacts-link:focus {
+color: #404BBF;
 }
 
 .page-footer {
@@ -128,13 +126,19 @@ color: #2e2f42;
 }
 
 .main-button {
-background: #4d5ae5;
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
+cursor: pointer;
 letter-spacing: 0.04em;
 color: #fff;
+background-color: #4d5ae5;
+}
+
+.main-button:hover,
+.main-button:focus {
+background-color: #404BBF;
 }
 
 .nothing-text {
